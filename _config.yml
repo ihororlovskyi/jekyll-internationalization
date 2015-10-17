@@ -1,0 +1,35 @@
+# build settings
+baseurl: /jekyll-multilanguage
+markdown: kramdown
+permalink: pretty
+
+host: 0.0.0.0
+port: 7015
+
+exclude: ['README.md']
+
+sass:
+  sass_dir: assets/css
+  style: :compressed
+
+# l10n
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/ua
+    values:
+      layout: default
+      lang: ua
+  -
+    scope:
+      path: _posts/ru
+    values:
+      layout: default
+      lang: ru
+
