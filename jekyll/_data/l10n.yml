@@ -1,0 +1,12 @@
+t:
+  en:
+    index:
+      Language: 'Language'
+  ua:
+    index:
+      Language: 'Мова'
+  ru:
+    index:
+      Language: 'Язык'
+
+
