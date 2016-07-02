@@ -1,6 +1,6 @@
 baseurl: /jekyll-multilanguage
 # source: ./jekyll
-# destination: ./build
+destination: ./public
 
 exclude: ['README.md']
 
