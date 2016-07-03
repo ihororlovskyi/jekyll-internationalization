@@ -1,4 +1,4 @@
-baseurl: 
+baseurl: /jekyll-multilanguage
 
 source:       ./jekyll/jekyll
 layouts_dir:  ./jekyll/jekyll
