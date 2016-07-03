@@ -1,10 +1,9 @@
-baseurl: /jekyll-multilanguage
+baseurl: 
 
 source:       ./jekyll
 layouts_dir:  ./jekyll
 data_dir:     ./jekyll
 includes_dir: ./jekyll
-posts_dir:    ./jekyll
 
 # destination: ./public
 
