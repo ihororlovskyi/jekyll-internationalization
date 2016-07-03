@@ -1,6 +1,11 @@
 baseurl: /jekyll-multilanguage
-# source: ./jekyll
-destination: ./public
+
+source:       ./public
+layouts_dir:  ./public/_layouts
+data_dir:     ./public/_data
+includes_dir: ./public/_includes
+
+# destination: ./public
 
 exclude: ['README.md']
 
