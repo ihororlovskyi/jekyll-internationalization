@@ -1,9 +1,9 @@
 baseurl: 
 
-source:       ./jekyll
-layouts_dir:  ./jekyll
-data_dir:     ./jekyll
-includes_dir: ./jekyll
+source:       ./jekyll/jekyll
+layouts_dir:  ./jekyll/jekyll
+data_dir:     ./jekyll/jekyll
+includes_dir: ./jekyll/jekyll
 
 # destination: ./public
 
