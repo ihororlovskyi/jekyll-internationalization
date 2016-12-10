@@ -1,5 +1,15 @@
-# Jekyll Multilanguage
+# jekyll-multilanguage
 
-Web development of Jekyll Multilanguage kit
+_Web development of Jekyll Multilanguage kit_
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+### Used
+
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
+
+[GitHub Pages](https://pages.github.com) - free hosting
+
+### Run
+
+`jekyll serve -w --baseurl ''`
+
+#### Have fun! :)

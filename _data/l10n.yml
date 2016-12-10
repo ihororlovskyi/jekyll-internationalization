@@ -1,12 +1,18 @@
-t:
-  en:
-    index:
-      Language: 'Language'
-  ua:
-    index:
-      Language: 'Мова'
-  ru:
-    index:
-      Language: 'Язык'
+JekyllMultilanguage:
+  en: 'Jekyll Multilanguage'
+  ua: 'Jekyll Баготомовний'
+  ru: 'Jekyll Мультиязичность'
+Language:
+  en: 'Language'
+  ua: 'Мова'
+  ru: 'Язык'
+Posts:
+  en: 'Posts'
+  ua: 'Пости'
+  ru: 'Посты'
+ReadMore:
+  en: 'Read More'
+  ua: 'Читати більше'
+  ru: 'Читать больше'
 
 

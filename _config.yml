@@ -1,36 +1,41 @@
 baseurl: /jekyll-multilanguage
-
-# source:       ./jekyll/jekyll
-# layouts_dir:  ./jekyll/jekyll
-# data_dir:     ./jekyll/jekyll
-# includes_dir: ./jekyll/jekyll
-
-# destination: ./public
-
+include: ['_pages']
 exclude: ['README.md']
 
 sass:
   sass_dir: _scss
   style: :compressed
 
-# l10n
-defaults:
-  -
-    scope:
-      path: _posts/en
-    values:
-      layout: default
-      lang: en
-  -
-    scope:
-      path: _posts/ua
-    values:
-      layout: default
-      lang: ua
-  -
-    scope:
-      path: _posts/ru
-    values:
-      layout: default
-      lang: ru
+# permalink: /:categories/:title/
 
+defaults:
+  - scope:
+      path: _pages/en
+      type: pages
+    values:
+      lang: en
+  - scope:
+      path: _pages/ua
+      type: pages
+    values:
+      lang: ua
+  - scope:
+      path: _pages/ru
+      type: pages
+    values:
+      lang: ru
+  - scope:
+      path: _posts/en
+      type: posts
+    values:
+      lang: en
+  - scope:
+      path: _posts/ua
+      type: posts
+    values:
+      lang: ua
+  - scope:
+      path: _posts/ru
+      type: posts
+    values:
+      lang: ru

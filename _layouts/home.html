@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<hr>
+
+<ul>
+    <li>date: {{ page.date | date: "%d.%m.%Y" }}</li>
+    <li>layout: {{ page.layout }}</li>
+    <li>lang: {{ page.lang }}</li>
+    <li>permalink: {{ page.permalink }}</li>
+    <li>path: {{ page.path }}</li>
+    <li>id: {{ page.id }}</li>
+    <li>url: {{ page.url }}</li>
+</ul>
+
+<hr>
+
+<h2>{{ site.data.l10n.Posts[page.lang] }}:</h2>
+
+<section>
+    {% assign posts = site.posts | where: "lang", page.lang %}
+    {% for i in posts %}
+        <article>
+            <h3>{{ i.title }}</h3>
+            <ul>
+                <li>date: {{ i.date | date: "%d.%m.%Y" }}</li>
+                <li>layout: {{ i.layout }}</li>
+                <li>lang: {{ i.lang }}</li>
+                <li>permalink: {{ i.permalink }}</li>
+                <li>path: {{ i.path }}</li>
+                <li>id: {{ i.id }}</li>
+                <li>url: {{ i.url }}</li>
+            </ul>
+            <p><a href="{{ site.baseurl }}{{ i.permalink }}">{{ site.data.l10n.ReadMore[page.lang] }}</a></p>
+        </article>
+    {% endfor %}
+</section>
+
+<hr>

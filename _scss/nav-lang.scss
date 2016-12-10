@@ -1,0 +1,30 @@
+.nav-lang {
+    background: #5596c7;
+    // max-width: 16rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    text-align: right;
+    color: #fff;
+
+    h4 {
+        float: left;
+        margin: 0;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav {
+        display: inline-block;
+        // float: right;
+
+        a.en:lang(en),
+        a.ua:lang(ua),
+        a.ru:lang(ru) {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}
