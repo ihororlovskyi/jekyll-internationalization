@@ -1,4 +1,4 @@
-baseurl: /jekyll-multilanguage
+baseurl: /jekyll-internationalization
 include: ['_pages']
 exclude: ['README.md']
 

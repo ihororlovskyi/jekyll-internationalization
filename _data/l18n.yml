@@ -1,7 +1,7 @@
 JekyllMultilanguage:
-  en: 'Jekyll Multilanguage'
+  en: 'Jekyll Internationalization'
   ua: 'Jekyll Баготомовний'
-  ru: 'Jekyll Мультиязичность'
+  ru: 'Jekyll Мультиязичный'
 Language:
   en: 'Language'
   ua: 'Мова'

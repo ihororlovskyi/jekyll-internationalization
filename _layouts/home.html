@@ -18,7 +18,7 @@ layout: default
 
 <hr>
 
-<h2>{{ site.data.l10n.Posts[page.lang] }}:</h2>
+<h2>{{ site.data.l18n.Posts[page.lang] }}:</h2>
 
 <section>
     {% assign posts = site.posts | where: "lang", page.lang %}
@@ -34,7 +34,7 @@ layout: default
                 <li>id: {{ i.id }}</li>
                 <li>url: {{ i.url }}</li>
             </ul>
-            <p><a href="{{ site.baseurl }}{{ i.permalink }}">{{ site.data.l10n.ReadMore[page.lang] }}</a></p>
+            <p><a href="{{ site.baseurl }}{{ i.permalink }}">{{ site.data.l18n.ReadMore[page.lang] }}</a></p>
         </article>
     {% endfor %}
 </section>
